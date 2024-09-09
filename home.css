@@ -1,0 +1,31 @@
+#intro{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+}
+  
+#intro-sentence{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#main-body > p{
+    margin: 0;
+}
+
+#portrait{
+    width: 750px;
+}
+
+#about-me{
+    font-style: italic;
+}
+
+#main-body{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+}

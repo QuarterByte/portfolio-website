@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick's Webpage</title>
+    <link rel = "stylesheet" type = "text/css" href = "constants.css">
+    <link rel="stylesheet" type="text/css" href="projects.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <link rel="icon" href="images/image.ico" type="image/x-icon">
+    
+
+</head>
+<body>
+    <header>
+        <nav> <!--nav stands for navigation!-->
+            <h1 class = "webtitle">Nicholas Ghattas</h1>
+            <div class = "top-left">
+                <a class = "icons" href="https://github.com/QuarterByte"><img src = "images/github.ico" alt="Github" width, height = 40px></a>
+                <a class = "icons" href="https://devpost.com/QuarterByte"><img src = "images/devpost.png" alt="Devpost" width, height = 40px></a>
+                <a class = "icons" href="https://www.linkedin.com/in/nicholas-ghattas/"><img src = "images/linkedin.png" alt="Devpost" width, height = 40px></a>
+                <a class = "icons" href="mailto:nicholas.ghtt@gmail.com"><i class="material-icons" style="font-size:50px;">mail</i>
+                </a>
+            </div>
+            <div class = "top-right">
+                <a href="home.html">Home</a>
+                <a href="projects.html">Projects</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id = intropara>
+            <p> My first ever project was a remote-controlled car built with a Raspberry Pi that I worked on with my dad. 
+                Since then, I have worked on several projects, utilizing tools such as microcontrollers, 3D printers, and Fusion 360.<br><br>
+            My most recent project is actually this page! I decided to learn more about front-end development, and decided to make a portfolio
+            for myself as my first project. This website is built using HMTL, CSS, and Javascript. The purpose of this website is primarily to 
+            serve as a way for me to document and show my projects to the world. Here are some more of my projects:</p>
+        </div>
+
+        <div id = "projectile">
+            <div class = "text">
+                <p class = "intro"> Projectile Launcher (2023)</p>
+                <p class = "code"> Arduino Uno, 3D Design and Printing, C++, Circuits</p>
+                <p class = "paragraph">I made a projectile launcher that is capable of launching a projectile up to five feet forwards and two feet upwards with an adjustable 
+                    angle that is controlled by an Arduino Uno. The stepper motor used was powered by an external power supply. <br><br> The angle is accurate to half a degree, though could have been made more accurate with more precise 
+                    hardware. When tested, the projectile launched using the launcher landed within a few inches where predicted, which was remarkably accurate.<br><br>The 
+                    launcher itself is 3D printed, and all of the files used were made in Fusion 360.</p>
+            </div>
+
+            <div class = "photo-container">
+                <div class = "photocaption">
+                    <img class = "photo" src = "images/launcher.jpg" alt = "photo of launcher"> 
+                    <p class = "caption">Projectile Launcher and motor connected to an Arduino Uno</p>
+                </div>
+                <div class = "photocaption">
+                    <img class = "photo" src = "images/3dmodels.png" alt = "3D model screenshot">
+                    <p class = "caption">Screenshot of all 3D printed parts in launcher</p>
+                </div>
+            </div>
+        </div>
+
+        <div id = "locker">
+            <div class = "text">
+                <p class = "intro"> Locker Camera (2023)</p>
+                <p class = "code"> Raspberry Pi 3B+, Python, Pip, Image Encoding, Electronics</p>
+                <p class = "paragraph">I made this locker camera to document my senior year. The camera is an Arducam 5 attached to a Raspberry Pi. 
+                    A battery bank inside the locker powered the Pi. <br><br> The Pi would start recording whenever the PIR sensor picked up motion (when the 
+                    locker was opened). The Pi would stop and save the recording when the locker was closed. The recordings would get saved and exported 
+                    off of the SD card later since the Pi's GPU was slower at encoding than my computer. <br><br> Overall, the project taught me a lot about 
+                    electronics and their behaviour, alongside video encoding and the computing power of microcontrollers.</p>
+            </div>
+
+            <div class = "photo-container">
+                <div class = "photocaption">
+                    <img class = "photo" src = "images/lockerCam.jpg" alt = "Locker Camera">
+                    <p class = "caption">Locker Camera attached to the Pi.</p>
+                </div>
+                <div class = "photocaption">
+                    <img class = "photo" src = "images/camscreenshot.png" alt = "camera screenshot">
+                    <p class = "caption">Screenshot of a video from the camera in the locker.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id = "rig">
+            <div class = "text">
+                <p class = "intro"> Ethereum Mining Rig (2022)</p>
+                <p class = "code"> Linux (HiveOS), Computer Assembly, BIOS optimization, Networking</p>
+                <p class = "paragraph">In 2022, I built a multi-GPU rig setup for validating transactions on the Ethereum blockchain (mining). <br><br> 
+                    The rig primarily used GPUs to perform mathematical processes to validate transactions on the Ethereum network. For each validated transactions done by the rig, the network would pay the rig a small fee in return. <br><br> The computer rig was carefully 
+                    overclocked to ensure best performance while maintaining the longevity of the components. <br><br>The rig was configured on the network
+                    to be accessible remotely for features such as remote reset and changing performance settings, such as the fan speeds and overclock settings.
+
+            </div>
+
+            <div class = "photo-container">
+                <div class = "photocaption">
+
+                    <img class = "photo" src = "images/rigPhoto.jpg" alt = "GPUs"> 
+                    <p class = "caption">Early computer rig. Six GPUs connected to a motherboard and CPU.</p>
+                </div>
+                <div class = "photocaption">
+                    <img class = "photo" src = "images/hiveOS.png" alt = "HiveOS Screenshot">
+                    <p class = "caption">Screenshot of HiveOS, an Ubuntu-based OS used to control mining rigs.</p>
+                </div>
+            </div>
+        </div> 
+    </main>
+
+    <footer>
+        <p>nicholas.ghtt@gmail.com</p>
+        <p>Nicholas' website</p>
+    </footer>
+
+</body>
+</html>

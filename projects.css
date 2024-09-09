@@ -1,0 +1,94 @@
+p > main{
+    font-size: 20px;
+}
+
+#intropara{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#projectile{
+    display: flex;
+    justify-content: left;
+    margin-top: 0px;
+}
+
+#rig{
+    display: flex;
+    justify-content: left;
+    margin-top: 0px;
+}
+
+#locker{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#rig{
+    display: flex;
+    justify-content: left;
+    max-height: 600px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.intro{
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.code{
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.paragraph{
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+
+.photo-container{
+    display: flex;
+    max-width: 70%;
+    align-items: top;
+}
+
+.photocaption{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo{
+    max-width: 100%;
+    border: 1px solid black;
+    max-height: 100%;
+}
+
+.caption{
+    font-style: italic;
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+}
+
+
+
+
+
